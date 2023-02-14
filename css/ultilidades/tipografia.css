@@ -1,0 +1,76 @@
+.texto-1-xs {
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.texto-2-xs {
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+
+.texto-1-s {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+
+.texto-2-s {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.texto-1-m,
+.texto-1-b {
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.texto-1-b {
+  font-weight: 600;
+}
+
+.texto-2-m {
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.texto-1-l {
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.texto-2-l,
+.texto-2-lb {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.texto-2-lb {
+  letter-spacing: 0.015em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.texto-1-g {
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.texto-2-g {
+  font: 500 2rem/1.12 "Roboto", sans-serif;
+}
+
+.texto-1-gb {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .texto-1-gb {
+    font-size: 3rem;
+  }
+
+  .texto-2-l,
+  .texto-2-lb {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .texto-1-gb {
+    font-size: 2rem;
+  }
+
+  .texto-1-g {
+    font-size: 1.5rem;
+  }
+}

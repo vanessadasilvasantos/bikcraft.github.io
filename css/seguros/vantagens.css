@@ -1,0 +1,30 @@
+.vantagens-fundo {
+  background-color: var(--cor-12);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.vantagens-fundo h2 {
+  margin-bottom: 60px;
+}
+
+.vantagens-conteudo ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+@media (max-width: 800px) {
+  .vantagens-fundo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .vantagens-fundo h2 {
+    margin-bottom: 40px;
+  }
+
+  .vantagens-conteudo ul {
+    gap: 20px;
+  }
+}
